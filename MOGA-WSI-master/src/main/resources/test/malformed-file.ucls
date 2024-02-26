@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true"
+               associations="true" dependencies="true" nesting-relationships="false" router="FAN">
+    <class id="1" language="java34" project="project"
+           file="/project/src/main/java/tmp/uqam/stage/genetic/configuration/Configuration.java" binary="false"
+           corner="BOTTOM_RIGHT">
+        <position height="25" width="121" x="1061" y="297"/>
+        <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false"
+                 sort-features="false" accessors="true" visibility="false">
+            <attributes public="false" package="false" protected="false" private="false" static="false"/>
+            <operations public="false" package="false" protected="false" private="false" static="false"/>
+        </display>
+    </class>
+    <interface id="2" language="java" name="tmp.uqam.stage.genetic.criteria.FitnessMethod" project="project"
+               file="/project/src/main/java/tmp/uqam/stage/genetic/criteria/FitnessMethod.java" binary="false"
+               corner="BOTTOM_RIGHT">
+        <position height="25" width="130" x="1078" y="502"/>
+        <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false"
+                 sort-features="false" accessors="true" visibility="false">
+            <attributes public="false" package="false" protected="false" private="false" static="false"/>
+            <operations public="false" package="false" protected="false" private="false" static="false"/>
+        </display>
+    </interface>
+    <class id="11" language="java" name="tmp.uqam.stage.genetic.EvolutionEngine" project="project"
+           file="/project/src/main/java/tmp/uqam/stage/genetic/EvolutionEngine.java" binary="false"
+           corner="BOTTOM_RIGHT">
+        <position height="25" width="142" x="813" y="102"/>
+        <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false"
+                 sort-features="false" accessors="true" visibility="false">
+            <attributes public="false" package="false" protected="false" private="false" static="false"/>
+            <operations public="false" package="false" protected="false" private="false" static="false"/>
+        </display>
+    </class>
+    <dependency id="121">
+        <bendpoint x="719" y="167"/>
+        <bendpoint x="719" y="232"/>
+        <end type="SOURCE" refId="11"/>
+        <end type="TARGET" refId="2"/>
+    </dependency>
+    <dependency id="122">
+        <end type="TARGET" refId="1"/>
+    </dependency>
+    <association id="105">
+    </association>
+    <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false"
+                        sort-features="false" accessors="true" visibility="false">
+        <attributes public="false" package="false" protected="false" private="false" static="false"/>
+        <operations public="false" package="false" protected="false" private="false" static="false"/>
+    </classifier-display>
+    <association-display labels="false" multiplicity="false"/>
+</class-diagram>
