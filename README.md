@@ -1,6 +1,6 @@
 # ServiceIdentification-2
 
-**ServiceMiner** is a static-analysis-based service identification tool that supports the migration of legacy Java-based enterprise systems toward a **Service-Oriented Architecture (SOA)**. It automatically discovers and categorizes service candidates into meaningful types—such as **Entity**, **Utility**, and **Application services**—to aid architects and developers during the early stages of system decomposition.
+**ServiceMiner** is a static-analysis-based service identification tool that supports the migration of legacy Java-based enterprise systems toward a **Service-Oriented Architecture (SOA)**. It automatically discovers and categorizes service candidates according to their types such as **Entity**, **Utility**, and **Application services**—to aid architects and developers during the early stages of system migration.
 
 ---
 
