@@ -1,0 +1,36 @@
+// Application
+{CustomersMainController, NewCustomerController, EditCustomerController, ViewCustomerController}, 
+{AddItemController, PayingWaySelectionController, InvoiceTypeSelectionController, NewCustomerInvoiceController, CustomerInvoiceMainController, SpecialCancellationController, ViewCustomerInvoiceController, EditItemController, ViewItemController},
+{AddItemHandController, NewHandwritedInvoiceController, EditItemHandController},
+{ItemTransactionMainController},
+{EditItemController, ItemMainController, NewItemController, ViewItemController},
+{AddUserController, EditUserController, UsersMainController},
+{AddSuppItemController, EditSuppItemController, NewSupplierInvoiceController, SupplierInvoiceMainController, ViewSupplierInvoiceController},
+{EditSupplierController, NewSupplierController, SupplierMainController, ViewSupplierController},
+{MainController, LoginController, Run, ApplicationLogin, HelpController}, 
+{MeasurementSelectionController},
+{ItemSelectionController},
+{CustomerSelectionController},
+{PriceListSelectionController},
+{SupplierSelectionController},
+{SupplierInvoiceTypeSelectionController},
+{VatCategorySelectionController, VATregimeSelectionController},
+
+// Entity 
+{Supplier},
+{MeasurementUnit},
+{Customer},
+{PriceList},
+{Customer},
+{VATregime},
+{ItemTransaction,Item,ItemTest},
+{User},
+{PayingWay},
+{VatCategorie},
+{CustomerInvoice, CustomerInvoiceType, CustomerInvoiceTest},
+{SupplierInvoiceType, SupplierInvoice},
+
+// Utility
+{CommonMethods, SpecialAlert},
+{DBInfo, MySQLConnection},
+{BackupController, RestoreController, DatabaseMaintenance, BusinessDataController, CleanDatabaseController}

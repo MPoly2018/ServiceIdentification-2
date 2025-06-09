@@ -1,0 +1,26 @@
+// Application
+{AdminController},
+{AddController,CategoryController,EditController,CategoryInterface}
+{AddController,EditController,EmployeeController,EmployeeInterface}
+{ConfirmController,InvoiceController,PosController,AddController,EditController,ProductController,ProductInterface}
+{AddController,PurchaseController,PurchaseInterface}
+{ReportController,ViewController,ReportInterface}
+{SalesController,SaleInterface}
+{AddController,EditController,SupplierController,SupplierInterface}
+
+
+// Entity 
+{Category,CategoryModel,CategoryDao}
+{Employee,EmployeeModel,EmployeeDao}
+{Invoice,InvoiceModel,InvoiceDao}
+{Item}
+{Payment}
+{Product,ProductModel,ProductDao}
+{Purchase,PurchaseModel,PurchaseDao}
+{Sale,SalesModel,SaleDao}
+{Supplier,SupplierModel,SupplierDao}
+
+//Utility
+{HibernateUtil}
+{LoginController}
+{PrintInvoice}
